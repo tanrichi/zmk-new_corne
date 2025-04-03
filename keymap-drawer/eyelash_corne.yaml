@@ -17,15 +17,15 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - '&hml LALT A'
   - '&hml LGUI S'
-  - '&hml LCTRL D'
-  - '&hml LSHIFT F'
+  - '&hml LSHIFT D'
+  - '&hml LCTRL F'
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
-  - '&hmr RSHIFT J'
-  - '&hmr RCTRL K'
+  - '&hmr RCTRL J'
+  - '&hmr RSHIFT K'
   - '&hml RGUI L'
   - '&hml RALT SEMI'
   - {t: '''', s: '"'}
@@ -47,8 +47,8 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', h: Numbers}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Symbols}
   Numbers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
@@ -96,7 +96,7 @@ layers:
   - {t: '0', s: )}
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Symbols:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -146,7 +146,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   Nav:
   - '&studio_unlock'
   - F1
